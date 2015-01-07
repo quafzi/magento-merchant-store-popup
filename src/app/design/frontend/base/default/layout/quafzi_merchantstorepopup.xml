@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+ 
+<layout version="0.1.0">
+       
+    <default>
+        <!--
+        <reference name="head">
+            <!- - These 2 below should already be included by Magento, but if not, you need to put them here - ->
+            <action method="addJs"><script>mage/cookies.js</script></action>
+            <block type="page/js_cookie" name="js_cookies" template="page/js/cookie.phtml"/>
+             
+            <action method="addJs"><script>val/jquery-1.7.2.min.js</script></action>
+            <action method="addItem"><type>skin_js</type><name>fancybox/jquery.fancybox-1.3.4.pack.js</name></action>
+            <action method="addItem"><type>skin_css</type><name>fancybox/jquery.fancybox-1.3.4.css</name></action>
+        </reference>
+        -->
+     
+        <reference name="before_body_end">
+            <block type="core/template" name="merchantstore_popup" as="merchantstore_popup" template="quafzi_merchantstorepopup/popup.phtml" />
+            <block type="page/html_head" name="merchantstore_js" template="quafzi_merchantstorepopup/js.phtml">
+                <action method="addItem"><type>skin_js</type><name>quafzi_merchantstorepopup/js/popup.js</name></action>
+                <action method="addItem"><type>skin_css</type><name>quafzi_merchantstorepopup/css/popup.css</name></action>
+            </block>
+        </reference>
+    </default>
+ 
+</layout>

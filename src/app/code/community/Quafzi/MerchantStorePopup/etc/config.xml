@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Quafzi_MerchantStorePopup>
+            <version>1.0.0</version>
+        </Quafzi_MerchantStorePopup>
+    </modules>
+    <global>
+        <helpers>
+            <quafzi_merchantstorepopup>
+                <class>Quafzi_MerchantStorePopup_Helper</class>
+            </quafzi_merchantstorepopup>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <quafzi_merchantstorepopup>
+                    <file>quafzi_merchantstorepopup.xml</file>
+                </quafzi_merchantstorepopup>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <Quafzi_MerchantStorePopup>
+                     <files>
+                          <default>Quafzi_MerchantStorePopup.csv</default>
+                     </files>
+                </Quafzi_MerchantStorePopup>
+            </modules>
+        </translate>
+    </frontend>
+</config>

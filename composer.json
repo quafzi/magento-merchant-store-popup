@@ -1,0 +1,15 @@
+{
+    "name": "quafzi/magento-merchant-store-popup",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "This extension shows a popup before switching B2C/B2B stores",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Thomas Birke",
+            "email":"tbirke@netextreme.de"
+        }
+    ]
+}

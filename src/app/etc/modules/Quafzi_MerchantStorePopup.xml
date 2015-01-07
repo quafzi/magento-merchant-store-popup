@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Quafzi_MerchantStorePopup>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends></depends>
+        </Quafzi_MerchantStorePopup>
+    </modules>
+</config>
