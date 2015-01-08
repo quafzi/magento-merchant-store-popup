@@ -2,7 +2,7 @@
     function isB2B(storecode) {
         return storecode.toLowerCase().contains('b2b');
     }
-    var currentStoreCode = "<?php echo Mage::app()->getStore()->getCode(); ?>"
+    var currentStoreCode = $("quafzi_merchantstorepopup").dataset.currentStore;
     $$(".store-switcher a").each(
         function (link) {
             link.onclick = function() {
